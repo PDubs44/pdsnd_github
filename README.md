@@ -13,8 +13,10 @@ washington.csv
 new_york_city.csv
 
 ### Credits
-Credits for project listed inside of the bikeshare project.txt file
+Credits for project listed inside of the "bikeshare project.txt" file
 
 Update 10/8/2019:
 Programs used for project include Atom, VSCode, anaconda, and spyder
 
+Update 10/8/2019:
+Updated credits list in "bikeshare project.txt" file
