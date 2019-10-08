@@ -144,10 +144,10 @@ def time_stats(df):
     popular_hour = df['hour'].mode()[0]
 
     print("\nTime Statistics:\n")
-    print('\nMost Popular Month:', popular_month, )
-    print('\nMost Popular Day of Week:', popular_dow)
-    print('\nMost Popular Hour:', popular_hour)
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('Most Popular Month:', popular_month, )
+    print('Most Popular Day of Week:', popular_dow)
+    print('Most Popular Hour:', popular_hour)
+    print("This took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
 
@@ -168,10 +168,10 @@ def station_stats(df):
     popular_trip = df['Start To End Station'].mode()[0]
 
     print("\nStation Statistics:\n")
-    print('\nMost Popular Start Station:', popular_ss)
-    print('\nMost Popular End Station:', popular_es)
-    print('\nMost Popular Trip:', popular_trip)
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('Most Popular Start Station:', popular_ss)
+    print('Most Popular End Station:', popular_es)
+    print('Most Popular Trip:', popular_trip)
+    print("This took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
 
@@ -188,9 +188,9 @@ def trip_duration_stats(df):
     mean_tt = df['Trip Duration'].mean()
 
     print("\nDuration Statistics:\n")
-    print('\nTotal Travel Time:', total_tt, 'minutes')
-    print('\nMean Travel Time:', mean_tt, 'minutes')
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('Total Travel Time:', total_tt, 'minutes')
+    print('Mean Travel Time:', mean_tt, 'minutes')
+    print("This took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
 
@@ -226,10 +226,10 @@ def user_stats(df):
     print(user_types)
     print()
     print(gender_types)
-    print('\nEarliest Subscriber Birth Year:', earliest_year)
-    print('\nMost Recent Subscriber Birth Year:', recent_year)
-    print('\nMost Common Subscriber Birth Year:', common_year)
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('Earliest Subscriber Birth Year:', earliest_year)
+    print('Most Recent Subscriber Birth Year:', recent_year)
+    print('Most Common Subscriber Birth Year:', common_year)
+    print("This took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
 
