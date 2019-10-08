@@ -1,0 +1,5 @@
+The only resources I used outside of the classroom space were:
+1. A lesson through Wyzant with a tutor for a better understanding of Python coding in general (not just specific to this project)
+2. My friends/ family who are programmers if I had any minor questions about syntax
+3. www.geeksforgeeks.org for function properties and uses (such as the mean function with a dataframe for example)
+4. www.stackoverflow.com for help with using df[0:b] and increasing b by an integer inside of a while loop
