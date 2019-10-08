@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+9/23/2019
 
 ### Project Title
-Replace the Project Title
+Bikeshare Project.py
 
 ### Description
-Describe what your project is about and what it does
+My python code project for the python course through udacity
 
 ### Files used
-Include the files used
+chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credits for project listed inside of the bikeshare project.txt file
 
